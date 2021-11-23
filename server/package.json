@@ -1,20 +1,20 @@
 {
-    "name": "com.inexbot.robothmi",
-    "version": "0.0.100",
-    "description": "inexbot robot hmi",
-    "repository": "https://github.com/edgeros/tpl-simple.git",
-    "main": "main.js",
-    "scripts": {
-        "build": "eos build"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "socket.io": "^4.3.2"
-    },
-    "devDependencies": {
-        "@edgeros/eslint-plugin-jsre": "^0.0.3",
-        "@edgeros/jsre-types": "^0.1.1",
-        "eslint": "^7.23.0"
-    },
-    "author": "weifan@inexbot.com"
+  "name": "com.inexbot.robothmi",
+  "version": "0.0.1",
+  "description": "inexbot robot hmi",
+  "repository": "https://github.com/edgeros/tpl-simple.git",
+  "main": "main.js",
+  "scripts": {
+    "build": "eos build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.3.2"
+  },
+  "devDependencies": {
+    "@edgeros/eslint-plugin-jsre": "^0.0.3",
+    "@edgeros/jsre-types": "^0.1.1",
+    "eslint": "^7.23.0"
+  },
+  "author": "weifan@inexbot.com"
 }
