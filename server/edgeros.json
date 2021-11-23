@@ -1,0 +1,48 @@
+{
+    "name": "协作机器人HMI",
+    "bundleid": "com.inexbot.robothmi",
+    "ignore_modules": [
+        "@edgeros/eslint-plugin-jsre",
+        "@edgeros/jsre-types"
+    ],
+    "ignore_path": [
+        "./test/**",
+        "./temp/**"
+    ],
+    "assets": {
+        "ico_big": "assets/big.png",
+        "ico_small": "assets/small.png",
+        "ico_widget": "assets/widget.png",
+        "splash": "assets/splash.png"
+    },
+    "program": {
+        "gss": false,
+        "log": "console",
+        "will": false,
+        "reside": false,
+        "mesv": "1.0.0",
+        "experimental": false
+    },
+    "vendor": {
+        "id": "4075ad0dea7e45898455762e6eabfe6a",
+        "name": "inexbot",
+        "email": "weifan@inexbot.com",
+        "phone": "",
+        "fax": ""
+    },
+    "update": {
+        "remove": [
+            "public"
+        ]
+    },
+    "widget": [
+        {
+            "ico": "ico_widget",
+            "name": "My Widget",
+            "path": "widget",
+            "rows": 2,
+            "columns": 2,
+            "category": "Demo"
+        }
+    ]
+}
